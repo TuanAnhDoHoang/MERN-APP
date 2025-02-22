@@ -1,0 +1,89 @@
+.wrapper {
+    border: 1px solid #ede9e9;
+    border-bottom: 2px solid #b5b4b4;
+    border-radius: 10px;
+    color: rgb(116, 113, 113);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    height: 23rem;
+    width: 50rem;
+    position: relative;
+
+    a {
+        text-decoration: none;
+        color: rgb(116, 113, 113);
+    }
+
+    .content-title,
+    .content {
+        color: black
+    }
+
+    .love {
+        display: flex;
+        position: absolute;
+        bottom: 10px;
+
+        .red-heart {
+            color: red;
+        }
+
+        .emoji {
+            &:hover {
+                cursor: pointer;
+                background-color: #f9f6f6;
+            }
+        }
+
+        p {
+            margin-left: 5px;
+        }
+    }
+}
+
+.content-img {
+    /* min-width: 20rem;
+    min-height: 20rem;
+    max-width: 40rem;
+    max-height: 20rem; */
+    min-width: 45rem;
+    min-height: 150px;
+    max-width: 100%;
+    max-height: 160px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+
+    .user-avatar {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-right: 5px;
+    }
+
+    .icon-blog {
+        position: absolute;
+        right: 20px;
+        font-size: 20px;
+        width: 20px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #f9f6f6;
+
+        }
+    }
+}
